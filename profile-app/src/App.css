@@ -9,7 +9,7 @@ html, body{
   height: 100%;
 }
 body{
-  display: grid;
+  display:grid;
   grid-template-rows: 1fr 50px;
   /* background: linear-gradient(to bottom, #fd226f, #ff5e36); */
   justify-content: center;
