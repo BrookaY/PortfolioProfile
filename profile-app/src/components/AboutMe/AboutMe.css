@@ -1,0 +1,23 @@
+.aboutme{
+    width: 90%;
+    height: 250px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #012132c5;
+    display:center;
+    justify-content:flex;
+    align-items:center;
+    cursor: pointer;
+  }
+  
+  .allaboutme{
+    font-size: 50px;
+    font-weight: bold;
+    background: linear-gradient(to right, #3dabffe7, #98edee, #c8fcfd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 360px;
+    text-transform: uppercase;
+    line-height: .99.9;
+  }

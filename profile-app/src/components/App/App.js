@@ -1,9 +1,11 @@
-import './app.css';
 import React from 'react';
+import './App.css';
+
+import AboutMe from '../AboutMe/AboutMe';
 
 function App() {
   return (
-    <body>
+    <div className='App'>
   <div class="container">
     <p class="msg">
       Mabrouka Yaqoob
@@ -11,16 +13,16 @@ function App() {
   </div>
 
   <div class="aboutme">
+  <AboutMe/>
   <p class="allaboutme">
   About me
     </p>
 
   </div>
   <footer>
-    Check out my <a href="https://github.com/BrookaY" target="_blank">Github</a>.
+    Check out my <a href="https://github.com/BrookaY" target="_blank" rel="noopener noreferrer">Github</a>.
   </footer>
-
-  </body>
+  </div>
   );
 }
 
