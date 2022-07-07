@@ -5,6 +5,7 @@
   font-family: 'Verdana', sans-serif;
   font-size:medium;
 }
+
 html, body{
   height: 100%;
 }
@@ -22,9 +23,10 @@ body{
   margin: 0 auto;
   padding: 30px;
   background: #012132c5;
-  display: flex;
-  justify-content:start;
+  display:flex;
+  justify-content:center;
   align-items: center;
+  cursor: pointer;
 }
 .msg{
   font-size: 50px;
@@ -36,6 +38,30 @@ body{
   text-transform: uppercase;
   line-height: .99.9;
 }
+.aboutme{
+  width: 90%;
+  height: 250px;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #012132c5;
+  display:center;
+  justify-content:flex;
+  align-items:center;
+  cursor: pointer;
+}
+
+.allaboutme{
+  font-size: 50px;
+  font-weight: bold;
+  background: linear-gradient(to right, #3dabffe7, #98edee, #c8fcfd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  max-width: 360px;
+  text-transform: uppercase;
+  line-height: .99.9;
+}
+
 footer{
   background: #ffffff;
   color: #000405c5;
